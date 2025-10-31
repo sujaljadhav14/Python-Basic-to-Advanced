@@ -1,0 +1,53 @@
+# -----------------------------------
+# 🐍 Python & Jupyter Ignore Rules
+# -----------------------------------
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter runtime and configuration files
+.jupyter/
+.jupyter_cache/
+.jupyter_runtime/
+
+# Ignore Anaconda project folders
+anaconda_projects/
+conda_envs/
+.env/
+.venv/
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+*.env
+*.venv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project settings
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore data files (optional)
+*.csv
+*.xlsx
+*.pkl
+*.db
+*.sqlite
+
+# Ignore build / packaging files
+build/
+dist/
+*.egg-info/
